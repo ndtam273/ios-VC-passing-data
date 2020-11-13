@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8726C86D5314010882CB5D51 /* Pods_vc_connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F69BA1BB504418B8563C02 /* Pods_vc_connect.framework */; };
-		F7048F1D254A69D9005509FC /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7048F1B254A69D9005509FC /* ProductViewController.swift */; };
-		F7048F1E254A69D9005509FC /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7048F1C254A69D9005509FC /* ProductViewController.xib */; };
-		F7048F24254A6CEF005509FC /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7048F23254A6CEF005509FC /* ProductViewModel.swift */; };
 		F7048F29254A6D96005509FC /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7048F28254A6D96005509FC /* Button.swift */; };
 		F7048F2D254A6DB8005509FC /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7048F2C254A6DB8005509FC /* Label.swift */; };
 		F7048F33254A7215005509FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7048F32254A7215005509FC /* User.swift */; };
@@ -30,15 +27,16 @@
 		F7775B612549381700858774 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7775B602549381700858774 /* BaseViewController.swift */; };
 		F7775B632549384D00858774 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7775B622549384D00858774 /* BaseNavigationController.swift */; };
 		F7775B652549388000858774 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7775B642549388000858774 /* BaseTabBarController.swift */; };
+		F7C12400255E95BA00117A76 /* ContactVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C123FE255E95BA00117A76 /* ContactVCViewController.swift */; };
+		F7C12401255E95BA00117A76 /* ContactVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C123FF255E95BA00117A76 /* ContactVCViewController.xib */; };
+		F7C12406255E95D000117A76 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C12404255E95D000117A76 /* FavoriteVC.swift */; };
+		F7C12407255E95D000117A76 /* FavoriteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C12405255E95D000117A76 /* FavoriteVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04F69BA1BB504418B8563C02 /* Pods_vc_connect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vc_connect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B432A631C882874AA5BC5C6 /* Pods-vc_connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vc_connect.release.xcconfig"; path = "Target Support Files/Pods-vc_connect/Pods-vc_connect.release.xcconfig"; sourceTree = "<group>"; };
 		7239059D2B22EE36A25D8A5B /* Pods-vc_connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vc_connect.debug.xcconfig"; path = "Target Support Files/Pods-vc_connect/Pods-vc_connect.debug.xcconfig"; sourceTree = "<group>"; };
-		F7048F1B254A69D9005509FC /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
-		F7048F1C254A69D9005509FC /* ProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
-		F7048F23254A6CEF005509FC /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		F7048F28254A6D96005509FC /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		F7048F2C254A6DB8005509FC /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		F7048F32254A7215005509FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -60,6 +58,10 @@
 		F7775B602549381700858774 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		F7775B622549384D00858774 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		F7775B642549388000858774 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		F7C123FE255E95BA00117A76 /* ContactVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVCViewController.swift; sourceTree = "<group>"; };
+		F7C123FF255E95BA00117A76 /* ContactVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactVCViewController.xib; sourceTree = "<group>"; };
+		F7C12404255E95D000117A76 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		F7C12405255E95D000117A76 /* FavoriteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +98,6 @@
 			children = (
 				F7048F27254A6D29005509FC /* Common */,
 				F7048F22254A6CC9005509FC /* Cells */,
-				F7048F1B254A69D9005509FC /* ProductViewController.swift */,
-				F7048F1C254A69D9005509FC /* ProductViewController.xib */,
-				F7048F23254A6CEF005509FC /* ProductViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -239,6 +238,10 @@
 			children = (
 				F7048F1A254A6986005509FC /* Home */,
 				F7775B5F2549380600858774 /* Base */,
+				F7C123FE255E95BA00117A76 /* ContactVCViewController.swift */,
+				F7C123FF255E95BA00117A76 /* ContactVCViewController.xib */,
+				F7C12404255E95D000117A76 /* FavoriteVC.swift */,
+				F7C12405255E95D000117A76 /* FavoriteVC.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -343,8 +346,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C12407255E95D000117A76 /* FavoriteVC.xib in Resources */,
+				F7C12401255E95BA00117A76 /* ContactVCViewController.xib in Resources */,
 				F7775B462549207D00858774 /* LaunchScreen.storyboard in Resources */,
-				F7048F1E254A69D9005509FC /* ProductViewController.xib in Resources */,
 				F7775B432549207D00858774 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,11 +414,11 @@
 				F7048F45254A7412005509FC /* String.Ext.swift in Sources */,
 				F7775B632549384D00858774 /* BaseNavigationController.swift in Sources */,
 				F7048F3E254A73C4005509FC /* Data.Ext.swift in Sources */,
-				F7048F24254A6CEF005509FC /* ProductViewModel.swift in Sources */,
+				F7C12400255E95BA00117A76 /* ContactVCViewController.swift in Sources */,
 				F7048F29254A6D96005509FC /* Button.swift in Sources */,
 				F7775B612549381700858774 /* BaseViewController.swift in Sources */,
 				F7775B5E254937BE00858774 /* App.Color.swift in Sources */,
-				F7048F1D254A69D9005509FC /* ProductViewController.swift in Sources */,
+				F7C12406255E95D000117A76 /* FavoriteVC.swift in Sources */,
 				F7048F42254A73E5005509FC /* Color.Ext.swift in Sources */,
 				F7775B3C2549207B00858774 /* SceneDelegate.swift in Sources */,
 			);
